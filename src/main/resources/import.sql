@@ -1,6 +1,6 @@
-INSERT INTO users (email, password, username, fullname, role) VALUES ('admin@admin.com', '$2a$10$5dRggeC9b.fkH9TywyZjAOuWcz/uafW.vKdECod0l5HmJxzeKoKLS', 'ProfesorAdmin', 'Admin Principal', 'ADMIN');
-INSERT INTO users (email, password, username, fullname, role) VALUES ('gestor@gestor.com', '$2a$10$5dRggeC9b.fkH9TywyZjAOuWcz/uafW.vKdECod0l5HmJxzeKoKLS', 'GestorTest', 'Gestor de Tareas', 'GESTOR');
-INSERT INTO users (email, password, username, fullname, role) VALUES ('alumno@alumno.com', '$2a$10$5dRggeC9b.fkH9TywyZjAOuWcz/uafW.vKdECod0l5HmJxzeKoKLS', 'AlumnoTest', 'Alumno DWES', 'USER');
+INSERT INTO users (id, email, password, username, fullname, role) VALUES (1, 'admin@admin.com', '$2a$12$WOaAG8Z21ON.DuLQbfW9LOTXkL36EILNXPT23X12A0eDoMQKfOHwa', 'ProfesorAdmin', 'Admin Principal', 'ADMIN');
+INSERT INTO users (id, email, password, username, fullname, role) VALUES (2, 'gestor@gestor.com', '$2a$12$WOaAG8Z21ON.DuLQbfW9LOTXkL36EILNXPT23X12A0eDoMQKfOHwa', 'GestorTodoList', 'Gestor de Tareas', 'MANAGER');
+INSERT INTO users (id, email, password, username, fullname, role) VALUES (3, 'alumno@alumno.com', '$2a$12$WOaAG8Z21ON.DuLQbfW9LOTXkL36EILNXPT23X12A0eDoMQKfOHwa', 'AlumnoDWES', 'Adrian Alumno', 'USER');
 
 INSERT INTO categories (title) VALUES ('Universidad');
 INSERT INTO categories (title) VALUES ('Desarrollo');

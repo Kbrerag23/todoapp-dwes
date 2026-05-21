@@ -21,7 +21,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/task")
 @RequiredArgsConstructor
-@Tag(name = "3. Tareas", description = "Gestión de tareas (Ítem 3c)")
+@Tag(name = "3. Tareas", description = "Gestión de tareas")
 public class TaskRestController {
 
     private final TaskService taskService;
