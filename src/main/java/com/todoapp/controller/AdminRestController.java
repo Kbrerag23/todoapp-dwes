@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/admin")
 @RequiredArgsConstructor
-@Tag(name = "1. Administrador", description = "Endpoints exclusivos para ADMIN (Ítem 3a de la rúbrica)")
+@Tag(name = "1. Administrador", description = "Endpoints exclusivos para ADMIN")
 public class AdminRestController {
 
     private final UserService userService;

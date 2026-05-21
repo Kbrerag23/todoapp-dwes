@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/manager")
 @RequiredArgsConstructor
-@Tag(name = "2. Gestor", description = "Endpoints para GESTOR o ADMIN (Ítem 3b de la rúbrica)")
+@Tag(name = "2. Gestor", description = "Endpoints para GESTOR o ADMIN")
 public class ManagerRestController {
 
     private final CategoryRepository categoryRepository;
